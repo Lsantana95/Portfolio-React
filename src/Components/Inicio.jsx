@@ -18,7 +18,8 @@ function Inicio() {
   return (
     <Sessao>
       <ProfileContainer>
-        <Img src="./src/assets/Dev.jpeg" alt="dev programando" />
+        <Img src="./src/assets/Dev.jpeg" alt="dev programando" /><hr />
+        <h2>Tecnologias que eu utilizo:</h2><br />
         
         <div>
         <IconList className="icons">

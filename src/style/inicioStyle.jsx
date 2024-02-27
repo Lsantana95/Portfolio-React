@@ -6,12 +6,12 @@ export const Img = styled.img`
     border-radius: 50%;
 
     @media (max-width: 800px) {
-        width: 80vw;
+        width: 46vw;
     }
 `
-
 export const IconList = styled.div`
- display: flex;
+ display: grid;
+ grid-template-columns: repeat(6, 1fr);
  justify-content: space-between;
  align-items: center;
  width: 100%;
@@ -24,6 +24,20 @@ export const IconList = styled.div`
     color: #09e32a; 
     transform: scale(1.4);
   }
+
+  @media (max-width: 680px) {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        
+    }
+    @media (max-width: 550px) {
+        grid-template-columns: repeat(6, 1fr);
+        gap: 10px;
+    } 
+    @media (max-width: 290px) {
+        grid-template-columns: repeat(4, 2fr);
+        gap: 10px;
+    }
 `;
 
 export const ProfileContainer = styled.div`
@@ -31,6 +45,13 @@ export const ProfileContainer = styled.div`
  flex-direction: column;
  align-items: center;
  justify-content: space-around;
+ color: #1c1c1c;
+ font-size: 1.3rem;
+
+ @media (max-width: 800px) {
+    font-size: 1rem;
+    text-align: center;
+    }
 `;
 
 export const Sessao = styled.section`
@@ -45,15 +66,15 @@ export const Sessao = styled.section`
 
     }
 `
-
 export const Div = styled.div`
     margin-left: 30px;
-    font-size: 26px;
+    font-size: 1.2rem;
+    text-align: center;
     padding: 10px 0;
     color: #f2f2f2;
 
     @media (max-width: 800px) {
-    width: 50vw;
+    width: 40vw;
     text-align: center;
     }
 `

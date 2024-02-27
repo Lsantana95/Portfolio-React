@@ -12,7 +12,7 @@ function Sobre() {
        
         <TextAbout className="about-text">
           <p>
-            Olá, me chamo Leonardo Santana e sou desenvolvedor{" "}
+            Olá, me chamo Leonardo e sou desenvolvedor{" "}
             <strong>Front End</strong>. Apaixonado por tecnologia e soluções
             criativas. Sempre disposto por criar soluções tecnológicas que
             resolvam problemas reais e que agregam valor aos usuários. Com mais
@@ -23,7 +23,8 @@ function Sobre() {
             <strong>Styled Components</strong>, <strong>Sass</strong>, e{" "}
             <strong>NextJS</strong> com o objetivo de me especializar em{" "}
             <strong>Fron-end</strong>.
-          </p>
+          </p><hr />
+          <p>Acesse meu Github e entre em contato comigo através do Linkedin e E-mail:</p>
           <SocialMedia />
         </TextAbout>
       </div>

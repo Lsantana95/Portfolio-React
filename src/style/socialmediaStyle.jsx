@@ -20,16 +20,16 @@ export const SocialMediaContainer = styled.section`
   }
 
   a:nth-child(2):hover {
-    color: #1C1C1C;
+    color: #FF6347;
   }
 
   a:nth-child(3):hover {
-    color: #FF6347;
+    color: #1C1C1C;
   }
 `;
 
 export const StyledLinkedIn = styled(FaLinkedin)``; 
 
-export const StyledGitHub = styled(FaGithub)``; 
-
 export const StyledEmail = styled(MdEmail)``;
+
+export const StyledGitHub = styled(FaGithub)``; 
