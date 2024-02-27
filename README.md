@@ -1,8 +1,8 @@
-## Projeto Portfolio - Ainda em desenvolvimento
+## Projeto Portfolio
 
 Desafio final do Vai na Web para desenvolver um portfolio em ReactJS.
-Obs: Ainda não está responsivo!!
 
-## 💻 Demonstração
+## 💻 Link do deploy:
 
-![Projeto- Portfolio](./src/assets/MeuPortfolio.gif) 
+
+
