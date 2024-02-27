@@ -43,6 +43,7 @@ export const Card = styled.div`
 
   p {
     color: #1C1C1C;
+    background-color: #00FF7F;
     text-align: center;
     font-size: 20px;
     padding: 8px;

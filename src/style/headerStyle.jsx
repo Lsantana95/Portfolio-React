@@ -16,7 +16,6 @@ export const Navegacao = styled.ul`
   list-style: none;
   font-size: 1.2rem;
   width: 40vw;
-  border: solid;
   justify-content: space-around;
 
   @media (max-width: 800px) {
@@ -30,7 +29,7 @@ export const Navegacao = styled.ul`
       color: #f2f2f2;
       padding: 14px;
       border-radius: 36px;
-      border: 2px solid #f2f2f2;
+      border: 3px solid #f2f2f2;
 
       &:hover {
         transform: scale(1.2);
